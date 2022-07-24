@@ -1,7 +1,7 @@
 # xvr0802
 kata kenzy ga krek ga makan
 
-•BAHAN-BAHAN•
+``BAHAN-BAHAN``
 
 pkg install python
 
