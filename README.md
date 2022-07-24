@@ -2,7 +2,7 @@
 
 ``BAHAN-BAHAN``
 
-••pkg install python••
+pkg install python
 
 pkg install git
 
