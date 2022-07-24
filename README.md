@@ -1,9 +1,8 @@
 # xvr0802
-kata kenzy ga krek ga makan
 
 ``BAHAN-BAHAN``
 
-pkg install python
+~pkg install python~
 
 pkg install git
 
