@@ -25,3 +25,14 @@ cd xvr0802
 git pull
 
 python xvr.py
+
+
+
+
+
+
+
+
+
+
+~yo~
