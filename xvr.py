@@ -1,8 +1,3 @@
-#############################################################################
-# DEVELOPER : XVR
-# TEANCONTA : KONTOL
-######################################################################################
-
 import requests,bs4,json,os,sys,random,datetime,time,re
 try:
 	import rich
@@ -79,53 +74,46 @@ def back():
 # BANNER
 def banner():
 	print('''%s
-█
-██╗  ██╗██╗   ██╗██████╗ 
-╚██╗██╔╝██║   ██║██╔══██╗
- ╚███╔╝ ██║   ██║██████╔╝
- ██╔██╗ ╚██╗ ██╔╝██╔══██╗
-██╔╝ ██╗ ╚████╔╝ ██║  ██║
-╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝                         
+     /\                                                           
+    /  \   _ __   ___  _ __  _   _ _ __ ___   ___  _   _ ___  ___ 
+   / /\ \ | '_ \ / _ \| '_ \| | | | '_ ` _ \ / _ \| | | / __|/ _ \
+  / ____ \| | | | (_) | | | | |_| | | | | | | (_) | |_| \__ \  __/
+ /_/    \_\_| |_|\___/|_| |_|\__, |_| |_| |_|\___/ \__,_|___/\___|
+                              __/ |                               
+                             |___/                                                   
 """%(N))                                                    
 ───────────────────────────────────────────────────────
- [\x1b[1;96m+%s] Nama       : XVR
- [\x1b[1;96m+%s] WhatsApp   : 6283878083448
- [\x1b[1;96m+%s] Facebook   : XVR
- [\x1b[1;96m+%s] Github      : https://github.com/xvrid08/xvr0802
+ [\x1b[1;96m+%s] Nama       : xvr anony
+ [\x1b[1;96m+%s] Github      : https://github.com/Anonymouse
 ───────────────────────────────────────────────────────\n'''%(N,N,N,N))
 def kontol():
     os.system("clear")
     print(f""" 
- __        ______   ______   ________  __    __   ______   ______       
-|  \      |      \ /      \ |        \|  \  |  \ /      \ |      \      
-| $$       \$$$$$$|  $$$$$$\| $$$$$$$$| $$\ | $$|  $$$$$$\ \$$$$$$      
-| $$        | $$  | $$___\$$| $$__    | $$$\| $$| $$___\$$  | $$        
-| $$        | $$   \$$    \ | $$  \   | $$$$\ $$ \$$    \   | $$        
-| $$        | $$   _\$$$$$$\| $$$$$   | $$\$$ $$ _\$$$$$$\  | $$        
-| $$_____  _| $$_ |  \__| $$| $$_____ | $$ \$$$$|  \__| $$ _| $$_       
-| $$     \|   $$ \ \$$    $$| $$     \| $$  \$$$ \$$    $$|   $$ \      
- \$$$$$$$$ \$$$$$$  \$$$$$$  \$$$$$$$$ \$$   \$$  \$$$$$$  \$$$$$$                                                                                                        
+.____    .__                            .__ 
+|    |   |__| ______ ____   ____   _____|__|
+|    |   |  |/  ___// __ \ /    \ /  ___/  |
+|    |___|  |\___ \\  ___/|   |  \\___ \|  |
+|_______ \__/____  >\___  >___|  /____  >__|
+        \/       \/     \/     \/     \/                                                                                                    
 {P}[•]{B}----------------------------------------------------{P}[•]
 {B} |
-{P}[•] AUTHOR: XVR
-{P}[•] WHATSAPP: 6283878083448
-{P}[•] FACEBOOK: XVR""")
+{P}[•] AUTHOR: Anony mouse""")
 def licensi():#line:42
   try :#line:43
     os .system ('clear')
     kontol()
     print (f"""
-{U}[{P}1{U}]{P} Beli Apikey
-{U}[{P}2{U}]{P} Masukan ApiKey
+{U}[{P}1{U}]{P} Beli Lisensi
+{U}[{P}2{U}]{P} Masukan Masukan Lisensi
 {U}[{P}3{U}]{P} Keluar {U}[{H}Exit{U}]{H}
 """)#line:49
-    OOO00O0OOO00OO00O =input (f"{H}[{P}?{H}]{P} Choose :{K} ")#line:50
+    OOO00O0OOO00OO00O =input (f"{H}[{P}?{H}]{P} ===> Pilih :{K} ")#line:50
     if OOO00O0OOO00OO00O in ['1','01']:#line:51
-      print (f"{H}[{P}!{H}]{P} Anda Akan Diarahkan Ke Whatsapp...");time .sleep (3 );os .system ('xdg-open https://wa.me/6283865283286?text=Bang+gw+mau+beli+Lisensi');exit ()#line:52
+      print (f"{H}[{P}!{H}]{P} Anda Akan Diarahkan Ke Whatsapp...");time .sleep (3 );os .system ('xdg-open https://wa.me/6283865283286?text=Bang+Beli+Lisensi+nya+dong.......???????');exit ()#line:52
     elif OOO00O0OOO00OO00O in ['2','02']:#line:53
       O000O000OOO000OOO =input (f"{H}[{P}?{H}]{P} Api Key :{K} ")#line:54
       if len (O000O000OOO000OOO )==0 :#line:55
-        exit (f"{P}[{M}!{P}]{M} Jangan Kosong")#line:56
+        exit (f"{P}[{M}!{P}]{M} Jangan Kosong Tolol")#line:56
       else :#line:57
         with requests .Session ()as O0O0OO0O0O00OOOO0 :#line:58   #### ISI TOKEN LU DAN   ID LU
           OOO00OO00O0O0OOOO =O0O0OO0O0O00OOOO0 .get(f'https://app.cryptolens.io/api/key/activate?token=WyIxNjk4MzkyOCIsIktFWUhHaUJzQkZzcEpTdXFRMXh0ZUh3U0crOWpyNk9LM1ZWV0xSQlkiXQ==&ProductId=14877&Key={O000O000OOO000OOO}&Sign=True').json ()['licenseKey']#line:59
@@ -136,7 +124,7 @@ def licensi():#line:42
     else :#line:64
       exit (f"{P}[{M}!{P}]{M} Wrong Input")#line:65
   except (KeyError ):#line:66
-    exit (f"{P}[{M}!{P}]{M} Api Key Invalid")#line:67
+    exit (f"{P}[{M}!{P}]{M} Lisensi Invalid")#line:67
   except Exception as O0OO00OOO000OOO00 :#line:68
     exit (f"{P}[{M}!{P}]{M} {O0OO00OOO000OOO00}")#line:69
 
